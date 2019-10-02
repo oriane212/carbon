@@ -9,6 +9,7 @@ Modifiers are used with various classes for Tabs.
 | `.bx--tabs__nav--hidden`        | Applies specific styles to hide the narrow tab menu options              |
 | `.bx--tabs__nav-item--selected` | Applies specific styles to the currently selected tab item               |
 | `.bx--tabs--light`              | Selector for applying light dropdown styles when tabs are in mobile view |
+| `.bx--tabs--wide`               | Selector for applying wide width styles to tabs                          |
 
 ### JavaScript
 

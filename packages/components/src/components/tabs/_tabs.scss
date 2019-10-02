@@ -79,6 +79,18 @@
     background-color: $field-02;
   }
 
+  // Wide tabs option
+  .#{$prefix}--tabs--wide .#{$prefix}--tabs__nav-link {
+    @include carbon--breakpoint(md) {
+      width: rem(224px);
+
+      &:focus,
+      &:active {
+        width: rem(224px);
+      }
+    }
+  }
+
   .#{$prefix}--tabs-trigger-text {
     text-decoration: none;
     padding-top: 2px;
